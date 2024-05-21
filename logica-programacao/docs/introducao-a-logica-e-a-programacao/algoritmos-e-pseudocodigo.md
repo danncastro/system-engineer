@@ -59,7 +59,7 @@ FIM DO TRABALHO HOME OFFICE
 Joguinho para desenvolver a lógica de programação.
 {% endembed %}
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 3. Resolva o problema do rachacuca.com.br e depois desenvolva um algoritmo explicando como resolver o problema.
 
