@@ -4,7 +4,9 @@ description: >-
   buscando a melhor sequência de ações para solucionar um problema.
 ---
 
-# Entendendo a lógica
+# Entendendo a Lógica
+
+***
 
 ## <mark style="color:red;">O que é lógica?</mark>
 
@@ -24,6 +26,8 @@ Significa apenas contextualizar a lógica na programação de computadores, busc
 
 > _Essa sequência de ações em computação é chamada de algoritmos._
 
+***
+
 ### <mark style="color:red;">**Metacognição**</mark>
 
 > _Pensar como você pensa_
@@ -31,6 +35,8 @@ Significa apenas contextualizar a lógica na programação de computadores, busc
 Metacognição é a habilidade de refletir sobre o próprio pensamento. Envolve compreender como pensamos, o que sabemos e como aprendemos. Ao desenvolver a metacognição, podemos melhorar nossa capacidade de planejar, monitorar e avaliar nosso próprio processo de aprendizado. Imagine que estamos aprendendo sobre botânica e precisamos entender a estrutura de uma árvore. Ao estudar, aplicamos a metacognição ao nos questionarmos: _"Estou realmente entendendo como uma árvore cresce e se desenvolve, ou estou apenas memorizando os nomes das partes?"_ ou _"Que técnicas posso usar para tornar esse processo de aprendizado mais eficaz?"_.&#x20;
 
 Essa reflexão consciente nos ajuda a ajustar nossa abordagem de estudo para alcançar melhores resultados, assim como entender a anatomia de uma árvore nos ajuda a compreender sua função e ecossistema de forma mais completa.
+
+***
 
 ### <mark style="color:red;">**Abstração**</mark>
 
@@ -52,5 +58,19 @@ Nota 4 : 3
 ```
 
 Após definir o resultado, se pergunte se é possível fazer uma "_abstração"_ a partir desse mapa mental.
+
+***
+
+### <mark style="color:red;">Dedução</mark>
+
+Dedução em linguagem de programação refere-se ao processo de inferir uma conclusão específica a partir de premissas ou regras estabelecidas. É como seguir um raciocínio lógico para chegar a uma conclusão necessária. Em programação, isso é comumente visto em sistemas de lógica ou algoritmos baseados em regras. Por exemplo, se uma condição A é verdadeira e uma condição B também é verdadeira, então podemos deduzir que uma condição C deve ser verdadeira.
+
+***
+
+### <mark style="color:red;">**Indução**</mark><mark style="color:red;">:</mark>
+
+Por outro lado, a indução em linguagem de programação envolve extrapolar padrões ou comportamentos observados em dados ou casos específicos para generalizar uma conclusão mais ampla. É como fazer uma generalização a partir de exemplos específicos. Por exemplo, se observarmos que uma determinada função funciona corretamente para uma série de entradas, podemos induzir que ela funcionará corretamente para todas as entradas desse tipo.
+
+> Em resumo, enquanto a dedução segue um raciocínio lógico para chegar a uma conclusão específica a partir de premissas, a indução generaliza padrões ou comportamentos observados para fazer conclusões mais amplas em linguagem de programação.
 
 ***

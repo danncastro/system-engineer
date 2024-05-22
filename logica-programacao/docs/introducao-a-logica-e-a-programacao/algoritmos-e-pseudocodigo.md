@@ -6,6 +6,8 @@ description: >-
 
 # Algoritmos e Pseudocódigo
 
+***
+
 ## <mark style="color:red;">**Algoritmo**</mark>
 
 Um algoritmo é uma sequência de passos lógicos e bem definidos usados para resolver um problema ou executar uma tarefa específica. Esses passos são projetados para produzir um resultado desejado ou alcançar um objetivo particular.&#x20;
@@ -34,6 +36,8 @@ INICIO DO PREPARO
 FIM DO PREPARO
 ```
 
+***
+
 ### <mark style="color:red;">**Algoritmo em Programação**</mark>
 
 Sequência de passos lógicos para execução de uma tarefa comunicadas em alguma linguagem **Alto nível (Humano)**, **Baixo nível (Máquina)**, podendo ser simplificados ou com tomadas de decições entre sim e não, etc... Exemplo: _**Receita de bolo**_
@@ -59,7 +63,7 @@ FIM DO TRABALHO HOME OFFICE
 Joguinho para desenvolver a lógica de programação.
 {% endembed %}
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Resolva o problema do rachacuca.com.br e depois desenvolva um algoritmo explicando como resolver o problema.
 
