@@ -9,6 +9,9 @@
 * [Pílares: Abstração](pensamento-computacional/pilares-abstracao.md)
 * [Pílares: Algoritmos](pensamento-computacional/pilares-algoritmos.md)
 
-***
+## Fundamentos de Algoritmos
 
-* [Pensamento Computacional](pensamento-computacional-1.md)
+* [Tipologia e variáveis](fundamentos-de-algoritmos/tipologia-e-variaveis.md)
+* [Instruções Primitivas](fundamentos-de-algoritmos/instrucoes-primitivas.md)
+* [Estruturas Condicionais e Operadores](fundamentos-de-algoritmos/estruturas-condicionais-e-operadores.md)
+* [Estrutura de Repetição](fundamentos-de-algoritmos/estrutura-de-repeticao.md)

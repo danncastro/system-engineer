@@ -22,7 +22,7 @@ Aqui estão algumas estratégias associadas ao reconhecimento de padrões:
 
 Esta estratégia envolve identificar elementos ou eventos que ocorrem repetidamente em um conjunto de dados. Pode-se observar padrões de repetição em séries temporais, sequências de caracteres, ou mesmo em estruturas geométricas.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -30,7 +30,7 @@ Esta estratégia envolve identificar elementos ou eventos que ocorrem repetidame
 
 O reconhecimento de padrões também inclui a identificação de elementos semelhantes ou diferentes em um conjunto de dados. Isso pode ser útil para agrupar dados relacionados ou para destacar anomalias que merecem atenção especial.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -38,7 +38,7 @@ O reconhecimento de padrões também inclui a identificação de elementos semel
 
 Esta estratégia envolve identificar tendências ou padrões de mudança ao longo do tempo ou em diferentes condições. Por exemplo, pode-se analisar o crescimento de uma população ao longo de várias décadas ou as variações sazonais nas vendas de um produto.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -46,9 +46,9 @@ Esta estratégia envolve identificar tendências ou padrões de mudança ao long
 
 O reconhecimento de padrões também pode envolver a identificação e extração de características relevantes de um conjunto de dados. Isso pode ajudar a simplificar a representação dos dados e a destacar aspectos importantes para a resolução de problemas.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -56,9 +56,9 @@ O reconhecimento de padrões também pode envolver a identificação e extraçã
 
 Por fim, o reconhecimento de padrões frequentemente envolve a classificação ou categorização de dados com base em características compartilhadas. Isso pode ajudar a organizar e compreender melhor os dados, facilitando a análise e a tomada de decisões.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Esse padrões se aplicam:
 
