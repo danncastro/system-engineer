@@ -18,7 +18,7 @@ Aqui estão alguns pontos-chave sobre a decomposição:
 
 Ao enfrentar um problema complexo, é comum que ele possa ser dividido em subproblemas menores e mais simples. A decomposição envolve identificar esses subproblemas e entender como eles se relacionam com o problema principal.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -26,7 +26,7 @@ Ao enfrentar um problema complexo, é comum que ele possa ser dividido em subpro
 
 Uma vez que os subproblemas são identificados, é útil organizar esses problemas em uma hierarquia, onde problemas menores são resolvidos antes de abordar os problemas maiores. Isso ajuda a manter o foco e a clareza durante o processo de resolução de problemas.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -34,9 +34,9 @@ Uma vez que os subproblemas são identificados, é útil organizar esses problem
 
 Cada subproblema pode ser dividido ainda mais em tarefas menores e mais específicas. Essa divisão permite uma abordagem mais sistemática para resolver o problema, pois cada tarefa pode ser tratada individualmente.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -50,7 +50,7 @@ Durante o processo de decomposição, é importante abstrair detalhes desnecess�
 
 Uma vez que os subproblemas são resolvidos individualmente, as soluções podem ser integradas para resolver o problema principal. Esta integração pode ser feita de acordo com a hierarquia estabelecida, garantindo que cada parte contribua para a solução geral do problema.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -63,12 +63,12 @@ Uma vez que os subproblemas são resolvidos individualmente, as soluções podem
 * Executar cada etapa
 * Agregar os ingredientes para finalizar (Recompor com Coerência)
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
