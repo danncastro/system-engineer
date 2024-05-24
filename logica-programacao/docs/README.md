@@ -67,7 +67,7 @@ Dedução em linguagem de programação refere-se ao processo de inferir uma con
 
 ***
 
-### <mark style="color:red;">**Indução**</mark><mark style="color:red;">:</mark>
+### <mark style="color:red;">**Indução**</mark>
 
 Por outro lado, a indução em linguagem de programação envolve extrapolar padrões ou comportamentos observados em dados ou casos específicos para generalizar uma conclusão mais ampla. É como fazer uma generalização a partir de exemplos específicos. Por exemplo, se observarmos que uma determinada função funciona corretamente para uma série de entradas, podemos induzir que ela funcionará corretamente para todas as entradas desse tipo.
 

@@ -28,11 +28,11 @@ Um diagrama de blocos em um fluxograma de programação é uma representação v
 
 > _São tipos de blocos diferentes para representar cada tipo de ação ou método de um fluxograma, não é um padrão definitivo, mas abaixo temos um exemplo:_
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:blue;">Exemplo de diagrama de blocos  escritos de duas formas.</mark>
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -152,10 +152,10 @@ Ao usar constantes em um programa, você pode evitar erros causados por tentativ
 
 1. Vamos baixar o Flowgorithm e efetuar a criação do fluxograma para exibir a média de um aluno.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 2. Além do valor de média, faça a soma de todas as notas e exiba na execução do programa.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***

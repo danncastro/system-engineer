@@ -20,7 +20,7 @@ As expressões aritméticas são compostas por:
 1. **Operandos**: são os valores numéricos que participam da operação. Por exemplo, em uma expressão como `3 + 5`, os operandos são os números 3 e 5.
 2.  **Operadores**: são os símbolos que indicam a operação a ser realizada entre os operandos. Os operadores aritméticos básicos incluem:
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Além desses operadores básicos, linguagens de programação geralmente suportam outros operadores aritméticos, como o operador de resto (%), que retorna o resto da divisão entre dois números inteiros.
 
@@ -110,7 +110,7 @@ Em resumo, expressões literais são representações diretas de valores de dado
 | B         | B = A + 3             | Somar o valor de A(2) com 3 e armazenar em B(5)             |
 | C         | C = A + B             | Somar o valor de A(2) e o valor de B(5) e armazenar em C(7) |
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
