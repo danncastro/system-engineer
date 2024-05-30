@@ -14,7 +14,7 @@ Aqui estão alguns pontos-chave sobre algoritmos:
 
 Um algoritmo é uma sequência ordenada de passos que descreve como realizar uma tarefa ou resolver um problema. Cada passo é claro, específico e executável, permitindo que o problema seja resolvido de forma eficiente e sem ambiguidades.
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
@@ -26,7 +26,7 @@ Os algoritmos devem ser precisos e não deixar espaço para interpretação amb�
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -54,7 +54,7 @@ Um algoritmo eficaz abstrai os detalhes de implementação, concentrando-se nos 
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
@@ -70,6 +70,6 @@ Algoritmos devem ser testáveis e corretos. Isso significa que eles devem produz
 
 ## <mark style="color:red;">Exercitanto os Algoritmos</mark>
 
-<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>

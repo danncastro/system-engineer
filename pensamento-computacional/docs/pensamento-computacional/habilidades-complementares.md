@@ -58,7 +58,7 @@ A abdução envolve a seleção da explicação mais plausível ou provável par
 
 1. Um pai, mãe e seu casal de filhos estão sentados em uma mesa. Os homens se chama Roberto e Sérgio, as mulheres Teresa e Fernanda. Sabe-se que o pai está á frente de fernanda e o filho e a esquerda; e que a mãe está ao lado direto de Sérgio.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Sérgio é o pai - Tereza é a mãe - Fernanda é a filha e Roberto é o filho
 
@@ -70,7 +70,7 @@ O aperfeiçoamento no raciocínio lógico refere-se à melhoria contínua da nos
 
 Para aprimorar nosso raciocínio lógico, é importante praticar regularmente atividades que desafiem nossa mente. Isso pode incluir resolver quebra-cabeças, jogar jogos de lógica, estudar matemática e ciências, ou simplesmente questionar e analisar o mundo ao nosso redor.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Além disso, o aperfeiçoamento no raciocínio lógico envolve a busca por novas informações, a aprendizagem de novos conceitos e a expansão de nossas habilidades de pensamento crítico. Isso nos ajuda a desenvolver uma compreensão mais profunda dos problemas que enfrentamos e a encontrar soluções mais criativas e eficazes.
 

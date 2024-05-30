@@ -45,7 +45,7 @@ Na abstração, identificamos os conceitos-chave ou componentes essenciais de um
 
 Uma vez que os conceitos-chave são identificados, podemos ocultar ou simplificar detalhes desnecessários ou complexos. Isso torna o problema mais gerenciável e facilita o processo de resolução.
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -59,7 +59,7 @@ A abstração muitas vezes envolve a criação de modelos ou representações si
 
 Outro aspecto da abstração é a capacidade de generalizar padrões ou tendências observados em um conjunto de dados. Isso nos permite extrair insights gerais e aplicá-los a situações similares, mesmo que não tenhamos informações detalhadas sobre cada caso específico.
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

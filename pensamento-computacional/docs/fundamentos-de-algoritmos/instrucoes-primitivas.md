@@ -6,11 +6,11 @@
 
 As instruções primitivas, às vezes chamadas de operadores primitivos ou operações primitivas, são operações fundamentais que podem ser executadas em variáveis ou valores básicos em uma linguagem de programação. Essas instruções realizam tarefas simples e são geralmente as operações mais básicas disponíveis na linguagem.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 > _**Definição Formal:** Instruções são linguagem de **palavras-chave**(vocabulário) de uma determinada de programação que tem por finalidade comandar um computador que irá **tratar os dados**_
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Aqui estão alguns exemplos comuns de instruções primitivas:
 

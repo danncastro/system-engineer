@@ -6,11 +6,11 @@
 
 As estruturas condicionais são blocos fundamentais em algoritmos e programação, permitindo que o código tome decisões com base em condições específicas. Elas são essenciais para a lógica de controle de fluxo, permitindo que um programa execute diferentes partes do código dependendo de certas circunstâncias.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -111,7 +111,7 @@ Esses operadores são usados para combinar expressões condicionais e retornar v
 * **OU (or)**: Retorna verdadeiro se pelo menos uma das expressões for verdadeira.
 * **NÃO (not)**: Inverte o valor de verdade de uma expressão.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
