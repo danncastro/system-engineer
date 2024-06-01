@@ -56,7 +56,7 @@ Abstração envolve focar nos aspectos importantes de um problema enquanto ignor
 
 Esse pilar trata da criação e aplicação de sequências de passos lógicos e bem definidos para resolver problemas. Os algoritmos são como receitas passo a passo que detalham as instruções necessárias para alcançar um determinado objetivo.
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > _Esses pilares são fundamentais para a resolução de problemas computacionais e são aplicáveis em uma variedade de contextos, não apenas na programação, mas também em áreas como ciência de dados, engenharia de software e até mesmo em problemas do cotidiano._
 
