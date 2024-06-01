@@ -26,13 +26,13 @@ Agora, a variável "idade" armazena o valor 25. Você também pode realizar oper
 
 Variáveis são uma parte fundamental da programação e são usadas em praticamente todas as linguagens de programação para armazenar e manipular dados.
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 ### <mark style="color:red;">Regras</mark>
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -48,7 +48,7 @@ Aqui estão alguns tipos comuns de variáveis:
 
 Armazena números inteiros, ou seja, números sem parte decimal. Exemplos de inteiros são -3, 0, 42, 1000, etc.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -56,7 +56,7 @@ Armazena números inteiros, ou seja, números sem parte decimal. Exemplos de int
 
 Armazena números decimais. Por exemplo, 3.14, -0.001, 2.71828, etc. A diferença entre float e double geralmente está na precisão: double oferece maior precisão do que float.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -64,7 +64,7 @@ Armazena números decimais. Por exemplo, 3.14, -0.001, 2.71828, etc. A diferenç
 
 Armazena um único caractere, como 'a', 'B', '&', '1', etc. Em algumas linguagens, os caracteres são representados entre aspas simples ('), enquanto em outras são usadas aspas duplas ("), mas o significado é o mesmo.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -80,6 +80,6 @@ Armazena apenas dois valores: verdadeiro (true) ou falso (false). É útil para 
 
 > _Esses são os tipos básicos de variáveis, mas muitas linguagens de programação oferecem tipos mais avançados, como arrays (ou listas), structs (ou registros), enums (enumerações), entre outros. Cada tipo de variável tem suas próprias operações e restrições, então é importante entender bem esses conceitos ao programar._
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***

@@ -18,3 +18,11 @@
 * [Vetores e Matrizes](fundamentos-de-algoritmos/vetores-e-matrizes.md)
 * [O que são funções](fundamentos-de-algoritmos/o-que-sao-funcoes.md)
 * [Instruções de Entrada/Saída](fundamentos-de-algoritmos/instrucoes-de-entrada-saida.md)
+
+## Linguagens de Programação
+
+* [Introdução á Linguagens de Programação](linguagens-de-programacao/introducao-a-linguagens-de-programacao.md)
+* [Como um Computador entende um Programa?](linguagens-de-programacao/como-um-computador-entende-um-programa.md)
+* [Características de um Programa](linguagens-de-programacao/caracteristicas-de-um-programa.md)
+* [Análises de Código](linguagens-de-programacao/analises-de-codigo.md)
+* [Paradigmas de Programação](linguagens-de-programacao/paradigmas-de-programacao.md)

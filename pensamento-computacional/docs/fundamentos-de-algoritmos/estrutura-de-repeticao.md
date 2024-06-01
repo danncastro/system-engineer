@@ -6,7 +6,7 @@
 
 As estruturas de repetição são fundamentais na programação, permitindo que um conjunto de instruções seja executado repetidamente com base em uma condição específica. Essa capacidade é essencial para automatizar tarefas repetitivas e lidar com conjuntos de dados de maneira eficiente.
 
-<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Existem geralmente três tipos principais de estruturas de repetição:
 
@@ -27,7 +27,7 @@ while contador < 5:
 
 Neste exemplo, o código imprimirá os números de 0 a 4.
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -44,7 +44,7 @@ for i in range(5):
 
 Este código também imprimirá os números de 0 a 4.
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -64,7 +64,7 @@ do {
 
 Neste exemplo, mesmo que a condição seja falsa, o bloco de código será executado pelo menos uma vez.
 
-<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Ao usar essas estruturas de repetição, é importante garantir que a condição de parada seja definida corretamente para evitar loops infinitos. Além disso, é possível interromper a execução de um loop antes da conclusão normal usando declarações como "break" (para sair do loop completamente) ou "continue" (para pular a iteração atual e ir para a próxima).

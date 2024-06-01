@@ -4,11 +4,11 @@
 
 A entrada de dados refere-se à maneira como um algoritmo recebe informações do usuário ou de algum dispositivo externo, como um arquivo. A saída de dados, por outro lado, é a maneira como o algoritmo apresenta ou armazena os resultados após processar essas informações.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 Existem várias maneiras de realizar entrada e saída de dados em algoritmos, dependendo do contexto em que o algoritmo está sendo executado. Aqui estão algumas das principais:
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:blue;">**Entrada via teclado (input)**</mark>
 
@@ -22,9 +22,9 @@ Nesse método, o usuário fornece dados diretamente ao programa através do tecl
 
 A saída padrão para muitos algoritmos é o console ou a tela do computador. As informações processadas são exibidas para o usuário neste formato. Por exemplo, em muitas linguagens de programação, você usa a função `print()` para exibir resultados na tela.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:blue;">**Saída para arquivo**</mark>
 
