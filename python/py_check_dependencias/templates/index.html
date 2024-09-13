@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status das Aplicações</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Status das Aplicações</h1>
+    </header>
+    <div class="container">
+        <a href="{{ url_for('add_url') }}" class="button">+</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Componente</th>
+                    <th>Endpoint</th>
+                    <th>Status</th>
+                    <th>Squad responsável</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for result in status_results %}
+                <tr>
+                    <td>{{ result.component }}</td> <!-- Nova coluna -->
+                    <td><a href="{{ result.url }}" target="_blank">{{ result.alias }}</a></td>
+                    <td class="{% if result.status_description == 'down' %}status-error{% else %}status-success{% endif %}">
+                        {{ result.status_description }}
+                    </td>
+                    <td><a href="{{ url_for('contact', app_name=result.contact) }}">{{ result.contact }}</a></td>
+                    <td><a href="{{ url_for('edit_url', index=loop.index0) }}">Editar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        
+    </div>
+    <footer>
+        <p>&copy; 2024 UOL Host</p>
+    </footer>
+</body>
+</html>

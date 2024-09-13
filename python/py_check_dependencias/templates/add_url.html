@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova dependência</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/parsleyjs@2.9.2/dist/parsley.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/parsleyjs@2.9.2/dist/parsley.css">
+</head>
+<body>
+    <header>
+        <h1>Nova dependência</h1>
+    </header>
+    <div class="container">
+        <form action="{{ url_for('add_url') }}" method="post" id="addUrlForm">
+            <div>
+                <label for="alias">Nome endpoint:</label>
+                <input type="text" id="alias" name="alias" required data-parsley-trigger="change" data-parsley-required-message="O componente é obrigatório.">
+            </div>
+            <div>
+                <label for="url">URL:</label>
+                <input type="text" id="url" name="url" required data-parsley-trigger="change" data-parsley-required-message="A URL é obrigatória.">
+            </div>
+            <div>
+                <label for="port">Porta:</label>
+                <input type="number" id="port" name="port" min="1" max="65535" placeholder="Opcional">
+            </div>
+            <div>
+                <label for="contact">Squad responsável:</label>
+                <input type="text" id="contact" name="contact" required data-parsley-trigger="change" data-parsley-required-message="O nome do time responsável é obrigatório.">
+            </div>
+            <div>
+                <label for="email">E-mail do time responsável:</label>
+                <input type="email" id="email" name="email" required data-parsley-trigger="change" data-parsley-required-message="O e-mail é obrigatório." data-parsley-type="email" data-parsley-type-message="O e-mail deve ser válido.">
+            </div>
+            <div>
+                <label for="component">Componente:</label>
+                <input type="text" id="component" name="component" value="{{ url_entry.component if url_entry else '' }}" required data-parsley-trigger="change" data-parsley-required-message="O componente é obrigatório.">
+            </div>
+            <button type="submit">Adicionar URL</button>
+        </form>
+        <div id="formFeedback" class="feedback-message"></div>
+        <a href="{{ url_for('index') }}" class="button">Status das Aplicações</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 UOL Host</p>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            $('#addUrlForm').parsley().on('form:success', function() {
+                $('#formFeedback').text('URL adicionada com sucesso!').addClass('success-message');
+            }).on('form:error', function() {
+                $('#formFeedback').text('Erro ao adicionar URL. Verifique os campos e tente novamente.').addClass('error-message');
+            });
+        });
+    </script>
+</body>
+</html>
