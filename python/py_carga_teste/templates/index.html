@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Carga</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #343a40; 
+            color: #ffffff; 
+        }
+        #results { margin-top: 20px; }
+        canvas { max-width: 100%; margin: 20px auto; }
+        .container { margin-top: 50px; }
+        .form-control { background-color: #495057; border: none; color: #ffffff; }
+        .form-control:focus { background-color: #6c757d; color: #ffffff; border-color: #007bff; box-shadow: none; }
+        .btn-primary { background-color: #007bff; border-color: #007bff; }
+        .btn-danger { background-color: #dc3545; border-color: #dc3545; }
+        .text-muted { color: #d1d1d1 !important; }
+        .table-responsive { max-height: 400px; overflow-y: auto; }
+        .table th { font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Teste de Carga</h1>
+        <div class="form-group row">
+            <div class="col-md-6">
+                <label for="url">URL:</label>
+                <input type="text" class="form-control" id="url" placeholder="Digite a URL" required>
+            </div>
+            <div class="col-md-3">
+                <label for="users">Usuários:</label>
+                <input type="number" class="form-control" id="users" min="1" value="1" required>
+            </div>
+            <div class="col-md-3 d-flex align-items-end">
+                <button class="btn btn-primary btn-block" id="start-test">Iniciar Teste</button>
+                <button class="btn btn-danger btn-block ml-2" id="stop-test" style="display:none;">Parar Teste</button>
+            </div>
+        </div>
+
+        <div id="results" class="text-center mt-3"></div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <canvas id="responseChart" width="600" height="300"></canvas>
+            </div>
+            <div class="col-md-6 table-responsive">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th>Destino</th>
+                            <th>Tempo de Resposta (s)</th>
+                            <th>Status Code</th>
+                        </tr>
+                    </thead>
+                    <tbody id="response-table-body"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let responseTimes = [];
+        let testId;
+
+        document.getElementById('start-test').addEventListener('click', () => {
+            const url = document.getElementById('url').value;
+            const users = document.getElementById('users').value;
+
+            fetch('/start', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ url, users })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('results').innerHTML = `Teste iniciado! ID: ${data.test_id}. Aguardando resultados...`;
+                testId = data.test_id;
+                responseTimes = []; 
+                document.getElementById('response-table-body').innerHTML = ''; 
+                document.getElementById('start-test').style.display = 'none';
+                document.getElementById('stop-test').style.display = 'block';
+
+                checkResults(testId);
+            });
+        });
+
+        document.getElementById('stop-test').addEventListener('click', () => {
+            fetch(`/stop/${testId}`, { method: 'POST' })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('results').innerHTML = data.message;
+                document.getElementById('stop-test').style.display = 'none';
+                document.getElementById('start-test').style.display = 'block';
+            });
+        });
+
+        function checkResults(testId) {
+            setTimeout(() => {
+                fetch(`/results/${testId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.responses) {
+                            data.responses.forEach(response => {
+                                responseTimes.push(response.response_time);
+                                const row = `<tr>
+                                                <td>${response.destination_ip}</td>
+                                                <td>${response.response_time.toFixed(2)}</td>
+                                                <td>${response.status_code}</td>
+                                            </tr>`;
+                                document.getElementById('response-table-body').insertAdjacentHTML('afterbegin', row);
+                            });
+                            updateChart();
+                        } else {
+                            document.getElementById('results').innerHTML = `Testes finalizados...`;
+                        }
+
+                        if (!data.stopped) {
+                            checkResults(testId);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Erro ao buscar resultados:', error);
+                    });
+            }, 2000);
+        }
+
+        const ctx = document.getElementById('responseChart').getContext('2d');
+        const responseChart = new Chart(ctx, {
+            type: 'line',
+            data: { labels: [], datasets: [{ label: 'Tempo de Resposta (s)', data: responseTimes, borderColor: 'rgba(75, 192, 192, 1)', borderWidth: 2, fill: false }] },
+            options: {
+                responsive: true,
+                scales: {
+                    x: { title: { display: true, text: 'Número de Requisições' } },
+                    y: { title: { display: true, text: 'Tempo (s)' }, beginAtZero: true }
+                }
+            }
+        });
+
+        function updateChart() {
+            responseChart.data.labels = Array.from({ length: responseTimes.length }, (_, i) => i + 1);
+            responseChart.data.datasets[0].data = responseTimes;
+            responseChart.update();
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
